@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.Flex{
+    background-color: antiquewhite;
+    width: 80vw;
+    margin: 50px auto;
+    padding-top: 20px;
+
+    
+}
+    
+.Container{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px;
+    flex-wrap: wrap;
+}
+
+h2{
+    font-weight: bold;
+    text-align:center;
+    margin: 10px;
+    
+}  
+
+p{
+    text-align: center;
+    margin: 8px auto;
+   
+    
+}
+.flower-1, .flower-2, .flower-3,.flower-4{
+    width: 200px;
+    margin: 0 52px;
+    display: flex;
+    flex-wrap: wrap;
+}

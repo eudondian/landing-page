@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif
+}
+
+p{
+    margin: auto 100px;
+    font-size: 18px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+
+.Flex-container{
+    background-color: lavenderblush;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+    padding: 10px;
+    width: 80vw;
+    border-top:  4px solid darkblue;
+    border-right: 4px solid darkblue;
+    
+}
+
+.First-part,.Third-part{
+    display: flex;
+    height: 50px;
+    text-align: center;
+
+      
+}
+
+.First-part li{
+    padding: 5px;
+    margin-right: 5px;
+    background-color: white;
+    color: darkblue;
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.Third-part li{
+    padding: 5px;
+    margin-right: 5px;
+    background-color: white;
+    color: darkblue;
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/*end of container 1*/
+.pb{
+    margin: auto 100px;
+    font-size: 18px;
+    margin-top: 20px;
+    color: darkblue;
+}
+
+
+.Flex-container2{
+    background-color: lavenderblush;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 100px;
+    padding: 10px;
+    width: 85vw;
+   
+}
+
+.First-part1,.Third-part1{
+    display: flex;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+      
+}
+
+li{
+    padding: 5px;
+    margin-right: 5px;
+    background-color: white;
+    color: darkblue;
+    list-style: none;
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}

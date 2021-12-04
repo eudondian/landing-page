@@ -1,0 +1,22 @@
+.Flex-Container{
+    background-color:lavenderblush;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid cadetblue;
+    margin: 100px auto;
+    width: 500px;
+    height: 400px;
+    
+    
+}
+
+.Flex{
+    background-color: coral;
+    border: 5px solid crimson;
+    text-align: center;
+    padding: 50px;
+    
+}
+
+/*end of flex 1*/

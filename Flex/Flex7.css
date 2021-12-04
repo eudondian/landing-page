@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container1{
+    display: flex;
+    height: 8vh;
+    background-color:#f3f1e3
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(65, 2, 2);
+    font-weight: 900;
+    font-size: 32px;
+    margin: 16px;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    width: 300px;
+    background-color:#f0eabc;
+    
+}
+.fas{
+    display: flex;
+    margin-left:  16px;
+    font-size: 20px;
+    color: cornflowerblue;
+    margin-top: 16px;
+   
+    
+}
+.container2{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto auto auto;
+    margin: -680px 400px;
+    gap: 20px;
+    padding: 32px;
+        
+ }
+.flex1,.flex2,.flex3,.flex4,.flex5,.flex6{
+    display: flex;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px gray;
+    min-height: 250px;
+   
+    }
+p{
+    font-size: 12px;
+    font-family: poppins;
+    margin-top: 5px;
+    margin-left:3px;
+    color:  rgb(65, 2, 2);
+    font-weight: bold;
+}
+.p1,.p2,.p3,.p4{
+    font-size: 18px;
+}
+.container3{
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#f3f1e3;
+    margin-top: 750px;
+}
+.star{
+    color: lightpink;
+}
+.bell{
+    color: darkblue;
+}
+.pen{
+    color:darkred ;
+}
+.squint{
+    color: darkgoldenrod;
+}
+.love{
+    margin-top: 5px;
+    color: red;
+}

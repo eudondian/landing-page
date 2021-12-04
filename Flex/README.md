@@ -1,0 +1,1 @@
+These exercises(Flex 1 to 7) were achieved using the Flexbox model
